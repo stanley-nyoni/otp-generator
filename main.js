@@ -23,3 +23,10 @@ function copyToClipboard(){
     display.value = "copied to clipboard";
     display.style.color = "lightgreen";
 }
+
+const note = document.querySelector('.note');
+const openBtn = document.querySelector('.note button');
+
+openBtn.addEventListener('click', () =>{
+   note.style.display = 'none';
+})
